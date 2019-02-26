@@ -23,6 +23,15 @@ const items = ["Pencil", "Notebook", "yo-yo", "Gum"];
 
 */
 
+function firstItem(arr, cb) {
+  return cb(arr[0]);
+}
+firstItem(items, function(first) {
+  console.log(first)
+});
+
+
+
 function getLength(arr, cb) {
   // getLength passes the length of the array into the callback.
     return cb(arr.length);
