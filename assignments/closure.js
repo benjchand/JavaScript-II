@@ -1,5 +1,15 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function favIceCream(topping, flavor) {
+  let exclamation = "I love ";
+  function combineTopping() {
+    return (exclamation + flavor + " with " + topping + "!");
+  }
+  return combineTopping();
+}
+console.log(favIceCream("Chocolate Chips", "Rocky Road"));
+
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
