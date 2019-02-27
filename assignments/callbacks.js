@@ -42,11 +42,30 @@ function last(arr, cb) {
   return cb(arr[arr.length-1]);
 }
 
+
+
+
+
+
+
 function sumNums(x, y, cb) {
   // sumNums adds two numbers (x, y) and passes the result to the callback.
   let z = x + y;
   return cb(z);
 }
+
+
+
+sumNums (6, 13, function(bananas) {
+  console.log(bananas);
+})
+
+
+
+
+
+
+
 
 function multiplyNums(x, y, cb) {
   // multiplyNums multiplies two numbers and passes the result to the callback.
